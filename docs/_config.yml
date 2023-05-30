@@ -1,9 +1,9 @@
 # This theme is based on https://github.com/jekyll/minima
 # Please refer above link to know the available configurations
 
-title: ""
+title: "Comparative Analysis of 2nd and 3rd Generation Sequencing"
 remote_theme: cepdnaclk/eYY-project-theme
-description: ""
+description: "The main objective of this project is to do a comparative analysis of the 2nd and 3rd generation sequencing methods to optimize the cost and efficiency."
 markdown: kramdown
 
 kramdown:
