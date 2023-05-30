@@ -13,14 +13,15 @@ title:
 
 #### Team
 
-- eNumber, Name, [email](mailto:name@email.com)
-- eNumber, Name, [email](mailto:name@email.com)
-- eNumber, Name, [email](mailto:name@email.com)
+- E/17/100, Gunathilaka R.M.S.M., [e17100@eng.pdn.ac.lk](mailto:e17100@eng.pdn.ac.lk)
+- E/17/240, Pathum T.N.D., [e17240@eng.pdn.ac.lk](mailto:e17240@eng.pdn.ac.lk)
+- E/17/246, Perera K.S.D., [e17246@eng.pdn.ac.lk](mailto:e17246@eng.pdn.ac.lk)
 
 #### Supervisors
 
-- Name, [email](mailto:name@eng.pdn.ac.lk)
-- Name, [email](mailto:name@eng.pdn.ac.lk)
+- Dr. Asitha Bandaranayake, [asithab@eng.pdn.ac.lk](mailto:asithab@eng.pdn.ac.lk)
+- Prof. Pradeepa Bandaranayake, [email](mailto:name@eng.pdn.ac.lk)
+- Mr. Hiruna Samarakoon, [email](mailto:name@eng.pdn.ac.lk)
 
 #### Table of content
 
