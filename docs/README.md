@@ -9,7 +9,7 @@ title: Comparative Analysis of 2nd and 3rd Generation Sequencing
 
 [comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
 
-# Project Title
+# Comparative Analysis of 2nd and 3rd Generation Sequencing
 
 #### Team
 
