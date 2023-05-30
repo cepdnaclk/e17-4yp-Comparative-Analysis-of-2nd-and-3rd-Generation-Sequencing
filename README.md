@@ -1,7 +1,3 @@
-___
-# DELETE THIS INSTRUCTIONS AND ADD A SHORT INTRODUCTION ABOUT YOUR PROJECT
-___
+# Comparative Analysis of 2nd and 3rd Generation Sequencing
 
-## Please refer the instructions in below URL:
-
-https://projects.ce.pdn.ac.lk/docs/how-to-add-a-project
+The main objective of this project is to do a comparative analysis of the 2nd and 3rd generation sequencing methods to optimize the cost and efficiency.
