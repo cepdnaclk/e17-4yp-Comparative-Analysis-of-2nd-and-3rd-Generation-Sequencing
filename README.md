@@ -4,6 +4,9 @@
 
 -  [Introduction](#introduction)
 -  [Problem and Solution](#problem-and-solution)
+-  [Progress & Procedure](#progress--procedure)
+-  [Problems encountered](#problems-encountered)
+-  [Findings & Results](#findings--results)
 
 
 # Introduction
@@ -113,4 +116,71 @@ The DNA sequencing and analysis pipeline involves acquiring raw data, performing
 ## Identified & proposed solution
 _Having a completely unbiased comparative analysis for current 2nd-generation and 3rd-generation gene sequencing is critical for the area of bio-informatics, in terms of molecular biology_
 
+# Progress & Procedure
+---
+## Work Procedure
+- To have a fair setup on the computation aspect, all assembles were done on AgBC’s high-performance server
+![image](https://github.com/ShenalPerera/e17-4yp-Comparative-Analysis-of-2nd-and-3rd-Generation-Sequencing/assets/73387610/360ebba0-7757-4a6b-a085-84ae65ad5e5a)
+- For the same species, 2nd Gen and 3rd Gen  gene sequencing conducted through the relevant data sets
+- The same species was assembled **multiple times** using both **Illumina** and **Nanopore** datasets, employing **different computational resources**
+- Performed diverse **2nd** and **3rd** gen sequencing on **various species** using Illumina and Nanopore datasets 
 
+## Illumina Assembly of Tomato Genome - (De-Novo)
+
+![image](https://github.com/ShenalPerera/e17-4yp-Comparative-Analysis-of-2nd-and-3rd-Generation-Sequencing/assets/73387610/abb8b6b4-1198-4a0c-a5d9-4e0c39f696a6)
+
+## Nanopore Assembly of Tomato Genome - (AgBC & NCBI)
+
+![image](https://github.com/ShenalPerera/e17-4yp-Comparative-Analysis-of-2nd-and-3rd-Generation-Sequencing/assets/73387610/9215a272-b759-461b-beb4-9798b8cdcb03)
+![image](https://github.com/ShenalPerera/e17-4yp-Comparative-Analysis-of-2nd-and-3rd-Generation-Sequencing/assets/73387610/e75e7296-1cbd-4eba-bd54-db04f395a637)
+
+# Problems encountered
+---
+- Insufficient read coverage in gathered data for Nanopore Assembly
+
+![image](https://github.com/ShenalPerera/e17-4yp-Comparative-Analysis-of-2nd-and-3rd-Generation-Sequencing/assets/73387610/cd9b14fc-fc1c-4683-bbbf-c52754916bf9)
+![image](https://github.com/ShenalPerera/e17-4yp-Comparative-Analysis-of-2nd-and-3rd-Generation-Sequencing/assets/73387610/a99e1952-6b1b-4d9e-9c77-3a88c5be7fdf)
+
+- Need for robust computational resources
+
+![image](https://github.com/ShenalPerera/e17-4yp-Comparative-Analysis-of-2nd-and-3rd-Generation-Sequencing/assets/73387610/0e3882f9-c8b1-4321-9667-78d891c91f22)
+
+-  RAM exhaustion issues due to limited resources
+
+For some simulations (resource allocations) due lack of RAM leads to a higher number of contigs and a lower N50 value 
+
+Insufficient RAM can cause extended data swapping to disk, leading to increased assembly times and potential bottlenecks in processing.
+**Workaround** - Increase the resource allocations.
+
+# Findings & Results
+---
+
+## Results of Tomato Genome Assembly
+![image](https://github.com/ShenalPerera/e17-4yp-Comparative-Analysis-of-2nd-and-3rd-Generation-Sequencing/assets/73387610/38066f9d-f760-4381-9c1b-22e56a68fc8a)
+
+## What Has Been Achieved
+- Quality Analysis
+  - Nanopore's Higher N50: Indicates more contiguous and potentially higher-quality assemblies than Illumina.
+  - Illumina's Fragmentation: More contigs suggest lower assembly coherence compared to Nanopore.
+  - Resource Impact: Larger RAM notably improves assembly quality for both technologies.
+  - Quality Scaling: Nanopore assembly quality increases more with additional computational resources.
+    
+- Performance Analysis
+  - Time Efficiency: Nanopore assembly is slower but improves with added computational resources, while Illumina is inherently faster.
+  - Resource Impact: Increased CPU and RAM consistently reduce assembly times for both technologies but with diminishing returns.
+  - Diminishing Returns: The reduction in time is not linear. When allocating more resources, the amount of time saved becomes less pronounced.
+  - RAM vs. CPU: Enhanced RAM more significantly optimizes assembly time and quality than additional CPU threads.
+
+## General Insights from the Assembly Runs
+
+- Time taken for error corrections was higher in nanopore sequencing than the Illumina sequencing
+  - Due to the Overlap-Layout-Consensus (OLC) approach
+
+- The pass rate for Nanopore data, through the Base Call technique, is significantly low
+  - Short reads vs. Longer reads
+
+- Read coverage crucial in Nanopore de-novo assembly
+  - Depending on the predicted Genome size
+
+## What Has Been Done
+![image](https://github.com/ShenalPerera/e17-4yp-Comparative-Analysis-of-2nd-and-3rd-Generation-Sequencing/assets/73387610/3348ac4f-af70-4b05-921f-6503e1c7f0f4)
