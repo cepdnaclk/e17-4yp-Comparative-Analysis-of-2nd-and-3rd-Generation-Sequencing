@@ -292,7 +292,7 @@ In the analysis of a 10Gb dataset for genome assembly, the results indicated not
 
 When considering performance matrices, Nanopore assemblies were slower compared to Illumina assemblies. It took 63 hours with 50GB of RAM, this time decreased to 37 hours with 150GB of RAM, showing improvement with additional resources. Illumina assemblies were faster. It took 37 hours with 50GB of RAM and reduced to 19 hours with 150GB of RAM. When more computer power and memory were used for the assemblies, the assembly time became shorter for both the Illumina and Nanopore technologies. However, the more computer power and memory added, the less time was saved. So, at a certain point, adding even more power and memory didn't speed things up by much. Moreover, it was observed that an increase in RAM had a greater effect on optimizing assembly time and quality than the addition of CPU threads. This suggests that having more memory to manage the data during assembly is more beneficial than simply having more CPU threads to handle multiple tasks simultaneously.
 
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="UTF-8">
